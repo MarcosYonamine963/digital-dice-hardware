@@ -1,65 +1,94 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3fd45f8c-51ef-4454-9e54-21b96824f914)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 91.44 26.67) (size 25.4 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1bcb6d50-952b-4f5e-9e1e-feeeb0f0d444)
-    (property "Sheetname" "leds" (at 91.44 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "leds.kicad_sch" (at 91.44 43.7646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "digital_dice"
-        (path "/3fd45f8c-51ef-4454-9e54-21b96824f914" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 27.94 26.67) (size 25.4 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 456a8488-4443-4d0b-a3fd-ce9162e46051)
-    (property "Sheetname" "power_supply" (at 27.94 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power_supply.kicad_sch" (at 27.94 43.7646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "digital_dice"
-        (path "/3fd45f8c-51ef-4454-9e54-21b96824f914" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 59.69 26.67) (size 25.4 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5be72184-82a2-4bb6-86d6-f47dcceb8ae6)
-    (property "Sheetname" "logic_circuits" (at 59.69 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "logic_circuits.kicad_sch" (at 59.69 43.7646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "digital_dice"
-        (path "/3fd45f8c-51ef-4454-9e54-21b96824f914" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3fd45f8c-51ef-4454-9e54-21b96824f914")
+	(paper "A4")
+	(title_block
+		(title "Digital Dice")
+		(date "2024-10-06")
+		(company "Marcos Yonamine")
+	)
+	(lib_symbols)
+	(sheet
+		(at 27.94 26.67)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "456a8488-4443-4d0b-a3fd-ce9162e46051")
+		(property "Sheetname" "power_supply"
+			(at 27.94 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 27.94 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_dice"
+				(path "/3fd45f8c-51ef-4454-9e54-21b96824f914"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 26.67)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5be72184-82a2-4bb6-86d6-f47dcceb8ae6")
+		(property "Sheetname" "logic_circuits"
+			(at 59.69 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_circuits.kicad_sch"
+			(at 59.69 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_dice"
+				(path "/3fd45f8c-51ef-4454-9e54-21b96824f914"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
