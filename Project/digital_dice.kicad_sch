@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Digital Dice")
-		(date "2024-10-06")
+		(date "2024-11-09")
+		(rev "1")
 		(company "Marcos Yonamine")
 	)
 	(lib_symbols)
